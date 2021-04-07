@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity
 
                                 signUpEmail.setText("");
                                 signUpPassword.setText("");
-                                Toast.makeText(getApplicationContext(),"Inserted Successfully",Toast.LENGTH_LONG).show();
+                                Toast.makeText(getApplicationContext(),"Başarılı",Toast.LENGTH_LONG).show();
                             } else
                             {
                                 signUpEmail.setText("");
@@ -64,7 +64,6 @@ public class MainActivity extends AppCompatActivity
                                 Toast.makeText(getApplicationContext(),task.toString(),Toast.LENGTH_LONG).show();
                             }
 
-                            // ...
                         }
                     });
 
@@ -72,7 +71,7 @@ public class MainActivity extends AppCompatActivity
         else
         {
 
-            Toast.makeText(getApplicationContext(),"Please input valid data",Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(),"Geçerli veri giriniz",Toast.LENGTH_LONG).show();
         }
     }
 }

@@ -178,7 +178,7 @@ public class Profile extends AppCompatActivity
                     @Override
                     public void onProgress(@NonNull UploadTask.TaskSnapshot snapshot) {
                         float percent=(100*snapshot.getBytesTransferred())/snapshot.getTotalByteCount();
-                        pd.setMessage("Yuklendi :"+(int)percent+"%");
+                        pd.setMessage("Yüklendi :"+(int)percent+"%");
                     }
                 });
 
