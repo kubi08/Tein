@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -11,7 +12,7 @@
         android:id="@+id/signInLogo"
         android:layout_width="160dp"
         android:layout_height="80dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="32dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -117,7 +118,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="32dp"
-        android:text="@string/sign_in_alt_text"
+        android:text="@string/sign_in_or_text"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -125,8 +126,8 @@
 
     <CheckBox
         android:id="@+id/ckbRemember"
-        android:layout_width="314dp"
-        android:layout_height="34dp"
+        android:layout_width="297dp"
+        android:layout_height="37dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="16dp"
         android:minLines="2"
@@ -177,6 +178,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="32dp"
+        android:onClick="signInToSignUp"
         android:text="@string/sign_up_text"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="16sp"

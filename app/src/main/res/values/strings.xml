@@ -24,6 +24,7 @@
     <string name="forget_text">Forget Password?</string>
     <string name="email_place">example@email.com</string>
     <string name="sign_up_email_place">Your email address</string>
+    <string name="sign_in_or_text">or use one of your social profiles</string>
     <string name="password_place">***********</string>
     <string name="sign_in_button_text">Sign In</string>
 </resources>

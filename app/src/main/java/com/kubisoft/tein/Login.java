@@ -45,6 +45,10 @@ public class Login extends AppCompatActivity {
             finish();
         }
     }
+    public void signInToSignUp(View view){
+        Intent signInToSignUp = new Intent(getApplicationContext(), MainActivity.class);
+        startActivity(signInToSignUp);
+    }
 
     public void signInHere(View view)
     {
