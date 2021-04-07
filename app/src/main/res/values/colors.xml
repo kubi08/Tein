@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1585b4</color>
+    <color name="colorPrimaryDark">#1585b4</color>
+    <color name="edit_text_square_color">#1E4E40</color>
+    <color name="colorAccent">#080808</color>
+    <color name="btnSignUp">#111211</color>
+    <color name="darkLight">#1585b4</color>
+    <color name="darkBlue">#233a71</color>
+    <color name="white">#FFFFFF</color>
+    <color name="btnSignActive">#383535</color>
+    <color name="overlayBackground">#6f000000</color>
+    <color name="overlayActionBar">#030303</color>
+    <color name="bordercolor">#03A9F4</color>
+    <color name="buttonbg">#FFC107</color>
+</resources>

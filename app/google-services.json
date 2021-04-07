@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "434949705633",
+    "project_id": "tein-24265",
+    "storage_bucket": "tein-24265.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:434949705633:android:6c8ded0c86f8a4dd8e45e0",
+        "android_client_info": {
+          "package_name": "com.kubisoft.tein"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "434949705633-u3edi4b4pqkh0frtat99tdmrov5a0qmh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kubisoft.tein",
+            "certificate_hash": "db7152505f9b9bec5d19be364931872990ca0200"
+          }
+        },
+        {
+          "client_id": "434949705633-lb8o271hdi9ta31v5aj1nmachcccv6ba.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0zbgMii1_AiItTTK1sCw7MtNZED45ErU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "434949705633-lb8o271hdi9ta31v5aj1nmachcccv6ba.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

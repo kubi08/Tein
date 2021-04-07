@@ -1,0 +1,29 @@
+<resources>
+    <string name="slogan"></string>
+    <string name="title_activity_home">Home</string>
+    <string name="app_name">TeinSoft</string>
+    <string name="logo_text">Tein Yazılım</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="phone_holder">Örn:5384102611</string>
+    <string name="profile">Profile</string>
+    <string name="phone_label">Phone</string>
+    <string name="phone_dd">Profile</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="update_button">Update</string>
+    <string name="have_account">Have an Account?</string>
+    <string name="continue_button">Continue</string>
+    <string name="checkbox_text">I agree to the Terms of Services and  Privacy Policy.</string>
+    <string name="sign_in_alt_text">Hi there! Nice to see you again</string>
+    <string name="email_text">Email</string>
+    <string name="password_text">Password</string>
+    <string name="facebook_text">Facebook</string>
+    <string name="twitter_text">Twitter</string>
+    <string name="sign_up_text">Sign Up</string>
+    <string name="forget_text">Forget Password?</string>
+    <string name="email_place">example@email.com</string>
+    <string name="sign_up_email_place">Your email address</string>
+    <string name="password_place">***********</string>
+    <string name="sign_in_button_text">Sign In</string>
+</resources>
