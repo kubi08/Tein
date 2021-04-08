@@ -21,7 +21,6 @@ import com.google.firebase.auth.FirebaseUser;
 public class Login extends AppCompatActivity {
 
     EditText signInEmail,signInPassword,profilePhone;
-    ProgressBar bar;
     FirebaseAuth mAuth;
 
     @Override
@@ -52,7 +51,7 @@ public class Login extends AppCompatActivity {
 
     public void signInHere(View view)
     {
-        bar.setVisibility(View.VISIBLE);
+
         String email=signInEmail.getText().toString();
         String password=signInPassword.getText().toString();
 
@@ -62,14 +61,14 @@ public class Login extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful())
                         {
-                            bar.setVisibility(View.INVISIBLE);
+
                             Intent intent=new Intent(Login.this,Profile.class);
                             intent.putExtra("email",mAuth.getCurrentUser().getEmail());
                             intent.putExtra("uid",mAuth.getCurrentUser().getUid());
                             startActivity(intent);
                         } else
                         {
-                            bar.setVisibility(View.INVISIBLE);
+
                             signInEmail.setText("");
                             signInPassword.setText("");
                             Toast.makeText(getApplicationContext(),task.toString(),Toast.LENGTH_LONG).show();
